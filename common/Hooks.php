@@ -20,5 +20,6 @@ class Hooks {
 	 */
 	public static function init(): void {
 		new \WPMB_Bricks_Conditions\Conditions\WordPress();
+		\WPMB_Bricks_Conditions\Conditions\WordPress::init();
 	}
 }
