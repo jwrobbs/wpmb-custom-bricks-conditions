@@ -19,7 +19,6 @@ class Hooks {
 	 * @return void
 	 */
 	public static function init(): void {
-
 		new \WPMB_Bricks_Conditions\Conditions\WordPress();
 	}
 }
